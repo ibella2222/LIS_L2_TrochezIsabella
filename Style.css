@@ -1,0 +1,98 @@
+
+/* CSS externo, aqui se encuentran todos los estilos de la pagina*/
+
+/* Selectores de agrupación para encabezados */
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #430979;
+}
+
+/* Selector para h1 */
+h1 {
+    text-align: center;
+    color: #8A2BE2;
+}
+
+/* Selector para h3 */
+h3 {
+    text-align: center;
+}
+
+/* Selector para párrafos */
+p {
+    color: #430979;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Contenedor grid para el titulo y el pajarito */
+.grid-container1 {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 30% 70%;
+}
+
+/* Contenedor grid para los 6 lenguajes y hago uso del gap */
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px; 
+}
+
+/* Estilos para los divs de lenguajes */
+.grid-container2 > div {
+    border: 8px solid; /* Borde sin color definido, el color lo defino en cada Id */
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* Contenedor para la descripción */
+.grid-container3 {
+    display: grid;
+    border: 1px solid #eac293;
+    background-color: #FDEEDD;
+    padding: 70px 1px 30px 60px;
+    grid-template-columns: 100%;
+}
+
+/* Selectores de Id para cada lenguaje con los bordes más oscuros que el color que les di de fondo */
+#lenguaje1 {
+    background-color: #B52986;
+    text-align: right;
+    border-color: #8A1E64; 
+}
+
+#lenguaje2 {
+    background-color: #88E185;
+    text-align: center;
+    border-color: #5BB358; 
+}
+
+#lenguaje3 {
+    background-color: #776DD1;
+    text-align: left;
+    border-color: #5549B0; 
+}
+
+#lenguaje4 {
+    background-color: #8365B0;
+    text-align: left;
+    border-color: #5E4680; 
+}
+
+#lenguaje5 {
+    background-color: #88E185;
+    text-align: center;
+    border-color: #5BB358; 
+}
+
+#lenguaje6 {
+    background-color: #c82896;
+    text-align: right;
+    border-color: #9E1F75; 
+}
+
+/* Estilo para enlaces, uso underline para subrayar la parte que dice visitar enlace */
+a {
+    color: #5e38be;
+    text-decoration: underline;
+}
